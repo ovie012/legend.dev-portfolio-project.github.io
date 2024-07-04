@@ -278,6 +278,7 @@ main {
 
 #meet-me {
     margin-top: 150px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,11 +306,6 @@ main {
     border-radius: 50%;
     overflow: hidden;
     animation: bounce 30s infinite ease-in-out;
-}
-
-.meet-me-image img {
-    width: 100%;
-    height: 100%;
 }
 
 @keyframes bounce {
@@ -506,6 +502,10 @@ main {
     text-align: center;
 }
 
+#hire-me p {
+    margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 500px) {
     #goals,
     #portfolio,
@@ -513,6 +513,18 @@ main {
     #hire-me {
         margin-top: 100px;
     }
+}
+
+.hng {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.hng h3 {
+    margin-bottom: 30px;
 }
 
 /* footer section */

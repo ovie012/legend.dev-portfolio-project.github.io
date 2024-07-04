@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <h2><a href="#">legend.dev</a></h2>
+        <h2><a href="#" data-testid="slackDisplayName">legend.dev</a></h2>
         <div class="header">
             <nav>
                 <ul>
@@ -60,8 +60,12 @@
                 </p>
             </section>
             <section class="meet-me-image">
-                <img src="./Public/meet-me-image.jpg" alt="emonefe ovie">
+                <img data-testid="slackProfilePicture" src="./Public/meet-me-image.jpg" alt="emonefe ovie">
             </section>
+        </div>
+        <div class="date-day">
+            <h3 data-testid="currentTimeUTC">Today</h3>
+            <h3 data-testid="currentDay">Today</h3>
         </div>
         <div id="goals">
             <h3>Legend.Dev Goals</h3>
@@ -109,12 +113,22 @@
             Also the footer contains links to my social media handles, so
             please do well to reach out. <br>Thank You 💖 .
             </p>
+            <p>My slack email below</p>
+            <p data-testid="slackEmail">ovieemonefe012@gmail.com</p>
+        </div>
+        <div class="hng">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="http://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
+                <li><a href="http://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
+                <li><a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+            </ul>
         </div>
     </main>
     <footer>
         <div class="footer">
             <section class="footer-top">
-                <h2>legend.dev</h2>
+                <h2 data-testid="slackDisplayName">legend.dev</h2>
                 <div class="location">
                     <img src="./Public/LP--FT-Icon-GPS.svg" alt="gps" class="icon">
                     <h6>Lagos - Nigeria</h6>

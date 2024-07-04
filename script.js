@@ -55,3 +55,13 @@ function scrollToMiddle(event, sectionId) {
         behavior: 'smooth'
     });
 };
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const currentTimeUTC = document.querySelector('[data-testid="currentTimeUTC"]');
+    const currentDay = document.querySelector('[data-testid="currentDay"]');
+
+    currentTimeUTC.textContent = `Current Time: ${new Date().toUTCString().split(' ')[4]} UTC`;
+    currentDay.textContent = `Today is: ${new Date().toLocaleString('en-us', { weekday: 'long' })}`;
+});
