@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>legend.dev</title>
+</head>
+<body>
+    <header>
+        <h2>legend.dev</h2>
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="#meet-me" onclick="scrollToMiddle(event, 'meet-me')">Meet Me</a></li>
+                    <li><a href="#goals" onclick="scrollToMiddle(event, 'goals')">Goals</a></li>
+                    <li><a href="#portfolio" onclick="scrollToMiddle(event, 'portfolio')">Portfolio</a></li>
+                    <li><a href="#testimonials" onclick="scrollToMiddle(event, 'testimonials')">Testimonials</a></li>
+                </ul>
+                <button><a href="#hire-me" onclick="scrollToMiddle(event, 'hire-me')">Hire Me</a></button>
+            </nav>
+        </div>
+        <img src="./Public/icon-menu.svg" alt="open mobile nav" class="open-nav-button nav-button icon">
+        <div class="mobile-header">
+            <div class="nav-buttons">
+                <img src="./Public/bx-moon.svg" alt="dark mode" class="light-dark-mode light-dark-mode-mobile icon">
+                <img src="./Public/icon-menu-close.svg" alt="close mobile nav" class="close-nav-button nav-button icon close-nav">
+            </div>
+            <nav>
+                <ul>
+                    <li class="close-nav"><a href="#meet-me" onclick="scrollToMiddle(event, 'meet-me')">Meet Me</a></li>
+                    <li class="close-nav"><a href="#goals" onclick="scrollToMiddle(event, 'goals')">Goals</a></li>
+                    <li class="close-nav"><a href="#portfolio" onclick="scrollToMiddle(event, 'portfolio')">Portfolio</a></li>
+                    <li class="close-nav"><a href="#testimonials" onclick="scrollToMiddle(event, 'testimonials')">Testimonials</a></li>
+                </ul>
+                <section>
+                    <h5>socials</h5>
+                    <div class="nav-socials">
+                        <img src="./Public/bxl-facebook.svg" alt="facebook" class="icon">
+                        <img src="./Public/bxl-instagram.svg" alt="instagram" class="icon">
+                        <img src="./Public/bxl-linkedin.svg" alt="linkedin" class="icon">
+                        <img src="./Public/bxl-tiktok.svg" alt="TikTok" class="icon">
+                    </div>
+                </section>
+                <button class="close-nav"><a href="#hire-me" onclick="scrollToMiddle(event, 'hire-me')">Hire Me</a></button>
+            </nav>
+        </div>
+        <img src="./Public/bx-moon.svg" alt="dark mode" class="icon light-dark-mode">
+    </header>
+    <main>
+        <div id="meet-me">
+            <section class="meet-me-text">
+                <h3>Meet Legend.Dev</h3>
+                <p>Hi, My name is Emonefe Ovie Ezekiel, i am a Front-End React Developer,
+                based in Lagos Nigeria.
+                </p>
+            </section>
+            <section class="meet-me-image">
+                <img src="./Public/meet-me-image.jpg" alt="emonefe ovie">
+            </section>
+        </div>
+        <div id="goals">
+            <h3>Legend.Dev Goals</h3>
+            <p>Over the next two years, my primary goal is to transition 
+            from a front-end developer to a proficient full stack developer 
+            specializing in the MERN stack. Having spent a year and a half 
+            honing my skills in HTML, CSS, JavaScript, and React, I am ready 
+            to embark on this journey. I plan to start working soon, leveraging 
+            my current expertise to secure a position that places me above the 
+            status of a junior developer. <br><br>
+            In my role as a front-end developer, I aim to excel in my 
+            responsibilities, delivering high-quality work and collaborating 
+            effectively with my team. My objective is to contribute significantly 
+            to projects, showcasing my ability to handle complex tasks and 
+            demonstrate leadership potential. This experience will be instrumental 
+            as I gradually expand my skill set to include back-end technologies. <br> <br>
+            To master the MERN stack, I will dedicate time to learning MongoDB, 
+            Express.js, and Node.js, integrating these technologies with my 
+            existing knowledge of React. I plan to work on personal projects, 
+            contribute to open-source initiatives, and seek mentorship from 
+            experienced full stack developers. By doing so, I aim to build 
+            a solid understanding of full stack development, enabling me to tackle 
+            both front-end and back-end challenges.  <br><br>
+            In summary, my goals for the next two years are to excel 
+            as a front-end developer, elevate my status beyond junior level, 
+            and master the MERN stack. This journey will prepare me to become 
+            a versatile and valuable team player in the tech industry.</p>
+        </div>
+        <div id="portfolio">
+            <h3>Legend.Dev Portfolio</h3>
+            <p>Coming Soon <br><br>
+            Stick around for amazing projects from Legend.Dev.
+            </p>
+        </div>
+        <div id="testimonials">
+            <h3>Legend.dev Testimonials</h3>
+            <p>Coming Soon <br><br>
+            This space is reserved for when i start being appreciated lol
+            (i am just having fun at this point and i don't like using lorem to populate text)
+            </p>
+        </div>
+        <div id="hire-me">
+            <h3>Legend.Dev Contact</h3>
+            <p>Reach out to me via email @ legenddtechguy@gmail.com <br><br>
+            Also the footer contains links to my social media handles, so
+            please do well to reach out. <br>Thank You 💖 .
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <section class="footer-top">
+                <h2>legend.dev</h2>
+                <div class="location">
+                    <img src="./Public/LP--FT-Icon-GPS.svg" alt="gps" class="icon">
+                    <h6>Lagos - Nigeria</h6>
+                </div>
+            </section>
+            <span></span>
+            <section class="footer-main">
+                <h5>socials</h5>
+                <div class="socials">
+                    <img src="./Public/bxl-facebook.svg" alt="facebook" class="icon">
+                    <img src="./Public/bxl-instagram.svg" alt="instagram" class="icon">
+                    <img src="./Public/bxl-linkedin.svg" alt="linkedin" class="icon">
+                    <img src="./Public/bxl-tiktok.svg" alt="TikTok" class="icon">
+                </div>
+            </section>
+            <span></span>
+            <section class="footer-bottom">
+                <aside>© 2024 legend.dev() => All rights reserved.</aside>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
